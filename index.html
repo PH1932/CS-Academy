@@ -1,9 +1,198 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hola Mundo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>CS Academy</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <p>Hola Mundo</p>
+<header id="home" class="hero-area-2">    
+    <div class="overlay"></div>
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-primary custom-navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="Logo">
+        </a>  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="lni-menu"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#eventos">Eventos</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#app-features">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#testimonial">Testimonial</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#horarios">Horarios</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="index.html#contacto">Contacto</a>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">      
+      <div class="row space-100 d-flex align-items-center">
+        <div class="col-lg-7 col-md-12 col-xs-12 text-start">
+          <div class="contents">
+            <h2 class="head-title"><br>COMUNIDAD SALSERA</h2>
+            <h3>SOMOS FAMILIA,<br>  
+            CORAZÓN Y ¡BAILE!<br></h3>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 col-xs-12 text-center">
+          <div class="intro-img">
+            <img src="img/logo2.png" alt="Logo" class="img-fluid custom-logo">
+          </div>            
+        </div>
+      </div> 
+    </div>
+</header>
+<main>
+  <!-- Sección Bienvenido con imagen a la derecha -->
+  <section id="bienvenido" class="seccion d-flex align-items-center">
+    <div class="texto">
+      <h2 class="titulo"><b>¡Bienvenido!</b></h2>
+      <p class="descripcion">
+        Bienvenido a la Comunidad Salsera, donde el ritmo y la pasión se fusionan para crear experiencias inolvidables en la pista de baile.
+        <br>En nuestro vibrante rincón del mundo, la danza no es solo un movimiento, es una forma de vida.
+      </p>
+    </div>
+    <div class="imagen">
+      <img src="img/bienvenido.jpg" alt="Baile Salsa" class="img-fluid">
+    </div>
+  </section>
+
+  <!-- Sección Eventos con Carrusel de Imágenes -->
+  <section id="eventos" class="seccion">
+    <h2 class="titulo">Eventos</h2>
+    <p class="descripcion">Organizamos eventos únicos donde la música y el movimiento crean experiencias inolvidables.</p>
+
+    <div id="carouselEventos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/evento1.jpg" class="d-block w-100" alt="Evento 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/evento2.jpg" class="d-block w-100" alt="Evento 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/evento3.jpg" class="d-block w-100" alt="Evento 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselEventos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselEventos" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Sección Nosotros con imagen a la derecha -->
+  <section id="nosotros" class="seccion d-flex align-items-center">
+    <div class="texto">
+      <h2 class="titulo">Nosotros</h2>
+      <p class="descripcion">
+        Nos enorgullece ofrecer una experiencia de baile personalizada. Ya sea que busques clases privadas, eventos o cotizaciones, estamos aquí para ayudarte.
+      </p>
+    </div>
+    <div class="imagen">
+      <img src="img/nosotros.jpg" alt="Grupo de bailarines" class="img-fluid">
+    </div>
+  </section>
+
+  <!-- Sección Testimonios con fotos de personas -->
+  <section id="testimonial" class="seccion">
+    <h2 class="titulo">Testimonios</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <p class="descripcion">Nuestros alumnos son nuestra mejor inspiración.</p>
+        <p>"Las clases han cambiado mi vida. No solo he aprendido a bailar, sino que he ganado confianza y he conocido a personas increíbles." – Ana M.</p>
+        <p>"Nunca pensé que podría bailar salsa, pero los profesores me guiaron paso a paso." – Carlos R.</p>
+      </div>
+      <div class="col-md-4">
+        <img src="img/testimonio1.jpg" class="img-fluid rounded-circle" alt="Ana M.">
+        <img src="img/testimonio2.jpg" class="img-fluid rounded-circle mt-2" alt="Carlos R.">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Horarios con tabla -->
+  <section id="horarios" class="seccion">
+    <h2 class="titulo">Horarios</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Día</th>
+          <th>Horario</th>
+          <th>Clase</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lunes a Viernes</td>
+          <td>10:00 am - 11:30 am</td>
+          <td>Principiantes</td>
+        </tr>
+        <tr>
+          <td>Lunes a Viernes</td>
+          <td>5:00 pm - 6:30 pm</td>
+          <td>Intermedios</td>
+        </tr>
+        <tr>
+          <td>Sábados</td>
+          <td>9:00 am - 10:30 am</td>
+          <td>Talleres especiales</td>
+        </tr>
+        <tr>
+          <td>Domingos</td>
+          <td>4:00 pm - 6:00 pm</td>
+          <td>Noches sociales</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Sección Contacto con redes sociales -->
+  <section id="contacto" class="seccion">
+    <h2 class="titulo">Contáctanos</h2>
+    <a href="mailto:salsa@salsa.salsa" class="enlace">Enviar correo</a>
+    <div class="redes-sociales">
+      <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+      <a href="https://instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+      <a href="https://tiktok.com" target="_blank"><img src="img/tiktok.png" alt="TikTok"></a>
+      <a href="https://youtube.com" target="_blank"><img src="img/youtube.png" alt="YouTube"></a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <p>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  <p>sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</footer>
 </body>
 </html>
