@@ -37,16 +37,13 @@
               <a class="nav-link page-scroll" href="index.html#eventos">Eventos</a>
             </li> 
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html#app-features">Nosotros</a>
+              <a class="nav-link page-scroll" href="index.html#nosotros">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="index.html#testimonial">Testimonial</a>
             </li> 
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html#horarios">Horarios</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html#contacto">Contacto</a>
+              <a class="nav-link page-scroll" href="index.html#ubicacion">Horarios y ubicación</a>
             </li> 
           </ul>
         </div>
@@ -70,25 +67,100 @@
     </div>
 </header>
 <main>
-  <!-- Sección Bienvenido con imagen a la derecha -->
+  <!-- Bienvenido -->
   <section id="bienvenido" class="seccion d-flex align-items-center">
+    <div class="imagen bienvenido">
+      <img src="img/bienvenido.jpg" alt="Baile Salsa" class="img-fluid">
+    </div>
     <div class="texto">
-      <h2 class="titulo"><b>¡Bienvenido!</b></h2>
+      <h2 class="titulo"><b>¡Bienvenido a la Somunidad Salsera!</b></h2>
       <p class="descripcion">
-        Bienvenido a la Comunidad Salsera, donde el ritmo y la pasión se fusionan para crear experiencias inolvidables en la pista de baile.
-        <br>En nuestro vibrante rincón del mundo, la danza no es solo un movimiento, es una forma de vida.
+        Donde el ritmo y la pasión se fusionan para crear experiencias inolvidables en la pista de baile.</br>
+        En nuestro vibrante rincón del mundo, la danza no es solo un movimiento, es una forma de vida.</br>
+        Desde los pasos más básicos hasta los movimientos más elaborados, en la Comunidad Salsera te invitamos a sumergirte en el fascinante universo del baile.
       </p>
     </div>
-    <div class="imagen">
-      <img src="img/bienvenido.jpg" alt="Baile Salsa" class="img-fluid">
+  </section>
+<!-- Instructores -->
+  <section id="instructores" class="seccion">
+    <div class="titulo">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <br />
+          <h2 class="section-heading titulo">
+            <i class="fa fa-users"></i> Conoce a los instructores:
+          </h2>
+          <hr class="primary" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="team-member text-faded">
+            <img
+              class="mx-auto rounded-circle"
+              src="img\instructores\ins1.jpg"
+              alt=""
+            />
+            <h4 class="titulo">Wenseslao</h4>
+            <p class="text-white">Maestro</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <div class="team-member text-faded">
+            <img
+              class="mx-auto rounded-circle"
+              src="img\instructores\ins2.jpg"
+              alt=""
+            />
+            <h4 class="titulo">Wensesloa</h4>
+            <p class="text-white">Maestra</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- Sección Eventos con Carrusel de Imágenes -->
+  <!-- Opiniones -->
+  <section id="testimonial" class="seccion">
+    <h2 class="titulo">Opiniones</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <p class="descripcion">Nuestros alumnos son nuestra mejor inspiración.</br>
+        </br></p>
+          <p class="descripcion">"Las clases han cambiado mi vida. No solo he aprendido a bailar, sino que he ganado confianza y he conocido a personas increíbles."</br>- Ana M.</p>
+            <div class="col-md-4 testmn">
+              <img src="img/testimonio1.jpg" class="img-fluid rounded-circle" alt="Ana M.">
+            </div>
+          <p class="descripcion">"Nunca pensé que podría bailar salsa, pero los profesores me guiaron paso a paso."</br>– Carlos R.
+            <div class="col-md-4 testmn">
+              <img src="img/testimonio2.png" class="img-fluid rounded-circle mt-2" alt="Carlos R.">
+            </div>
+          </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="seccion d-flex align-items-center">
+    <div class="texto">
+      <h2 class="titulo">Nosotros</h2>
+      <p class="descripcion">
+        Nos enorgullece ofrecer una experiencia de baile personalizada. Ya sea que busques clases privadas, eventos o cotizaciones, estamos aquí para ayudarte.
+        <div class="imagen nosotros titulo text-center col-sm-6 col-md-6 col-lg-6 seccion d-flex align-items-center">
+          <img src="img/nosotros.jpg" alt="Grupo de bailarines" class="img-fluid">
+        </div>
+      </p>
+    </div>
+  </section>
+
+  <!-- Eventos -->
   <section id="eventos" class="seccion">
     <h2 class="titulo">Eventos</h2>
     <p class="descripcion">Organizamos eventos únicos donde la música y el movimiento crean experiencias inolvidables.</p>
-
     <div id="carouselEventos" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -101,48 +173,13 @@
           <img src="img/evento3.jpg" class="d-block w-100" alt="Evento 3">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselEventos" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselEventos" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
     </div>
   </section>
 
-  <!-- Sección Nosotros con imagen a la derecha -->
-  <section id="nosotros" class="seccion d-flex align-items-center">
-    <div class="texto">
-      <h2 class="titulo">Nosotros</h2>
-      <p class="descripcion">
-        Nos enorgullece ofrecer una experiencia de baile personalizada. Ya sea que busques clases privadas, eventos o cotizaciones, estamos aquí para ayudarte.
-      </p>
-    </div>
-    <div class="imagen">
-      <img src="img/nosotros.jpg" alt="Grupo de bailarines" class="img-fluid">
-    </div>
-  </section>
-
-  <!-- Sección Testimonios con fotos de personas -->
-  <section id="testimonial" class="seccion">
-    <h2 class="titulo">Testimonios</h2>
-    <div class="row">
-      <div class="col-md-8">
-        <p class="descripcion">Nuestros alumnos son nuestra mejor inspiración.</p>
-        <p>"Las clases han cambiado mi vida. No solo he aprendido a bailar, sino que he ganado confianza y he conocido a personas increíbles." – Ana M.</p>
-        <p>"Nunca pensé que podría bailar salsa, pero los profesores me guiaron paso a paso." – Carlos R.</p>
-      </div>
-      <div class="col-md-4">
-        <img src="img/testimonio1.jpg" class="img-fluid rounded-circle" alt="Ana M.">
-        <img src="img/testimonio2.jpg" class="img-fluid rounded-circle mt-2" alt="Carlos R.">
-      </div>
-    </div>
-  </section>
-
-  <!-- Sección Horarios con tabla -->
+  <!-- Horarios -->
   <section id="horarios" class="seccion">
     <h2 class="titulo">Horarios</h2>
-    <table class="table table-striped">
+    <table class="table table-striped descripcion">
       <thead>
         <tr>
           <th>Día</th>
@@ -174,22 +211,49 @@
       </tbody>
     </table>
   </section>
-
-  <!-- Sección Contacto con redes sociales -->
+<!-- maps -->
+  <section class="seccion  p-5" id="ubicacion">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading titulo">
+            <i class="fa fa-map-marker"></i>Ubicación
+          </h2>
+          <hr class="primary">
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 padding-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8667.90446608693!2d-90.50004180319112!3d14.592668465648636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3296c622f25%3A0xab49916fc97dc0af!2scomunidad%20salsera!5e0!3m2!1ses!2smx!4v1740077072710!5m2!1ses!2smx"
+            height= "450px"
+            width= "100%">
+            </iframe>
+          </div>
+        </div>
+          <a href="https://www.google.com/maps/place/comunidad+salsera/@14.5967427,-90.5045639,15.96z/data=!4m6!3m5!1s0x8589a3296c622f25:0xab49916fc97dc0af!8m2!3d14.5970354!4d-90.5045206!16s%2Fg%2F11y47z6_jx?hl=es&entry=ttu&g_ep=EgoyMDI1MDIxOC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-common btn-effect">Ir al mapa<br></a>
+      </div>
+    </section>
+  </section>
+  <!-- redes sociales -->
   <section id="contacto" class="seccion">
     <h2 class="titulo">Contáctanos</h2>
-    <a href="mailto:salsa@salsa.salsa" class="enlace">Enviar correo</a>
-    <div class="redes-sociales">
-      <a href="https://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
-      <a href="https://instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
-      <a href="https://tiktok.com" target="_blank"><img src="img/tiktok.png" alt="TikTok"></a>
-      <a href="https://youtube.com" target="_blank"><img src="img/youtube.png" alt="YouTube"></a>
+    <div class="social-icons">
+      <ul>
+        <li class="facebook"><a href="https://facebook.com" target="_blank"><img src="img/icons/facebook.png" alt="Facebook"></a></li>
+        <li class="instagram"><a href="https://instagram.com" target="_blank"><img src="img/icons/instagram.png" alt="Instagram"></a></li>
+        <li class="tiktok"><a href="https://tiktok.com" target="_blank"><img src="img/icons/tiktok.png" alt="TikTok"></a></li>
+        <li class="youtube"><a href="https://youtube.com" target="_blank"><img src="img/icons/youtube.png" alt="YouTube"></a></li>
+    </ul>
     </div>
+    <a href="mailto:salsa@salsa.salsa" class="btn">Enviar correo</a>
   </section>
 </main>
 
 <footer>
-  <p>&copy; "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <p>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
   <p>sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>

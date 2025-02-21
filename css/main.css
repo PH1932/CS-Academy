@@ -1,9 +1,261 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto");
-
 @font-face {
   font-family: 'Playfair Display';
-  src: url('C:\Users\luisi\Desktop\CSAcademy\fonts\Playfair_Display') format('truetype');
+  src: url('fonts/Playfair_Display') format('truetype');
 }
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('fonts/glacial-indifference/GlacialIndifference-Bold.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('fonts/glacial-indifference/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ordinary Notes';
+  src: url('fonts/ordinary_notes/Ordinary Notes Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ordinary Notes';
+  src: url('fonts/ordinary_notes/Ordinary Notes Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ordinary Notes';
+  src: url('fonts/ordinary_notes/Ordinary Notes.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ordinary Notes';
+  src: url('fonts/ordinary_notes/Ordinary Notes.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/ Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('fonts/static/Montserrat-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-Bold.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-BoldItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-ExtraBold.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-Italic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-Medium.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-MediumItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-Regular.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-SemiBold.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LT Renovate';
+  src: url('fonts/lt_renovate/LTRenovate-SemiBoldItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
 /* ==========================================================================
    Section Title
    ========================================================================== */
@@ -61,9 +313,9 @@
 }
 
 .btn-common {
-  background-image: -moz-linear-gradient(0deg, #7a2046 0%, #143389 100%);
-  background-image: -webkit-linear-gradient(0deg, #7a2046 0%, #143389 100%);
-  background-image: -ms-linear-gradient(0deg, #7a2046 0%, #143389 100%);
+  background-image: -moz-linear-gradient(0deg, #000000 0%, #143389 100%);
+  background-image: -webkit-linear-gradient(0deg, #000000 0%, #143389 100%);
+  background-image: -ms-linear-gradient(0deg, #000000 0%, #143389 100%);
   position: relative;
   z-index: 1;
 }
@@ -250,10 +502,15 @@ button:focus {
   border-radius: 4px;
   border: 1px solid rgba(255, 254, 254, 0.07);
   line-height: 40px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   font-size: 16px;
+}
+
+.social-icons ul li a img {
+  width: 50px;
+  height: 50px;
 }
 
 .social-icons ul li a:hover {
@@ -276,12 +533,12 @@ button:focus {
   background: #1DA1F2;
 }
 
-.google-plus a {
-  color: #DD4D42;
+.instagram a {
+  color: -moz-linear-gradient(0deg, #7a2046 0%, #143389 100%, #ffffff 100%);
 }
 
-.google-plus a:hover {
-  background: #DD4D42;
+.instagram a:hover {
+  background-image: -moz-linear-gradient(0deg, #7a2046 0%, #143389 100%, #ffffff 100%);
 }
 
 .youtube a {
@@ -290,6 +547,14 @@ button:focus {
 
 .youtube a:hover {
   background: #DF2926;
+}
+
+.tiktok a {
+  color: #1a0031;
+}
+
+.tiktok a:hover {
+  background: #1a0031;
 }
 
 .linkedin a {
@@ -644,8 +909,8 @@ button:focus {
   max-height: 250px;
   height: auto;
   position: relative;
-  left: 120px;
-  top: -115px;
+  left: 90px;
+  top: -90px;
   max-width: 80%;
 }
 
@@ -664,27 +929,29 @@ button:focus {
 .seccion {
   padding: 0px;
   margin: 40px auto;
-  max-width: 1000px;
+  max-width: 1400px;
   background-color: #1f1f1f;
   border-radius: 8px;
 }
 
 .titulo {
-  font-size: 45px;
+  font-family: 'Monstserrat', sans-serif, !important;
+  font-size: 42px;
+  font-weight: bolder;
   color: #95b6ff;
   text-align: center;
-  font-weight: bold;
-  font-family: 'Playfair Display'
 }
 
 .descripcion {
-  font-size: 38px;
+  font-family: 'LT Renovate', sans-serif, !important;
+  font-size: 35px;
+  font-weight: 200;
   text-align: justify;
   line-height: 32px;
   margin-bottom: 10px;
-  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
   color: #ffffff;
-  font-family: 'Playfair Display' 
 }
 
 .enlace {
@@ -770,4 +1037,44 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .bg-defult {
   background: #3c9cfd !important;
+}
+
+/*BIENVENIDO*/
+.bienvenido img{
+  width: 900px;
+  height: 250px;
+}
+
+/*NOSOTROS*/
+.nosotros {
+  width: 250px;
+  height: 500px;
+}
+
+/*TESTIMONIOS*/
+.testmn img{
+  width: 50px;
+  height: 50px;
+}
+
+/*INSTRUCTORES*/
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+  
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid white;
+}
+  
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+  
+.team-member p {
+  margin-top: 0;
 }
