@@ -6,7 +6,6 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>CS Academy</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/line-icons.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
@@ -16,6 +15,9 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    </style>
 </head>
 <body>
 <header id="home" class="hero-area-2">    
@@ -34,17 +36,14 @@
               <a class="nav-link page-scroll" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html#eventos">Eventos</a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html#nosotros">Nosotros</a>
+              <a class="nav-link page-scroll" href="nosotros/index.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html#testimonial">Testimonial</a>
-            </li> 
+              <a class="nav-link page-scroll" href="horarios/index.html#horarios">Horarios y ubicación</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="index.html#ubicacion">Horarios y ubicación</a>
-            </li> 
+              <a class="nav-link page-scroll" href="contacto/index.html">Contáctanos</a>
+            </li>  
           </ul>
         </div>
       </div>
@@ -53,80 +52,40 @@
       <div class="row space-100 d-flex align-items-center">
         <div class="col-lg-7 col-md-12 col-xs-12 text-start">
           <div class="contents">
-            <h2 class="head-title"><br>COMUNIDAD SALSERA</h2>
-            <h3>SOMOS FAMILIA,<br>  
-            CORAZÓN Y ¡BAILE!<br></h3>
+            <h2 class="head-title shrikhand-regular"><br>CURSO DE BAILE ¡¡EN LÍNEA!!</br></h2>
+            <h3 class="shrikhand-regular ">APRENDE DESDE 0 Y MEJORA TU
+            EXPERIENCIA DE BAILE<br>
+            <a href="" class="btn btn-common btn-effect shrikhand-regular">Ingresa Aquí</a>
+            </h3>
           </div>
-        </div>
-        <div class="col-lg-5 col-md-12 col-xs-12 text-center">
-          <div class="intro-img">
-            <img src="img/logo2.png" alt="Logo" class="img-fluid custom-logo">
-          </div>            
         </div>
       </div> 
     </div>
 </header>
 <main>
   <!-- Bienvenido -->
-  <section id="bienvenido" class="seccion d-flex align-items-center">
-    <div class="imagen bienvenido">
-      <img src="img/bienvenido.jpg" alt="Baile Salsa" class="img-fluid">
-    </div>
-    <div class="texto">
-      <h2 class="titulo"><b>¡Bienvenido a la Somunidad Salsera!</b></h2>
-      <p class="descripcion">
-        Donde el ritmo y la pasión se fusionan para crear experiencias inolvidables en la pista de baile.</br>
-        En nuestro vibrante rincón del mundo, la danza no es solo un movimiento, es una forma de vida.</br>
-        Desde los pasos más básicos hasta los movimientos más elaborados, en la Comunidad Salsera te invitamos a sumergirte en el fascinante universo del baile.
-      </p>
-    </div>
-  </section>
-<!-- Instructores -->
-  <section id="instructores" class="seccion">
-    <div class="titulo">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <br />
-          <h2 class="section-heading titulo">
-            <i class="fa fa-users"></i> Conoce a los instructores:
-          </h2>
-          <hr class="primary" />
-        </div>
+  <section id="bienvenido" class="seccion">
+    <h2 class="titulo" style="text-align: center;">
+      <b>¡Bienvenido a la Comunidad Salsera!</b>
+    </h2>
+    <div class="contenido" style="display: flex; align-items: center; margin-top: 20px;">
+      <div class="imagen bienvenido" style="flex: 0 0 auto;">
+        <img src="img/bienvenido.jpg" alt="Baile Salsa" class="img-fluid">
       </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="team-member text-faded">
-            <img
-              class="mx-auto rounded-circle"
-              src="img\instructores\ins1.jpg"
-              alt=""
-            />
-            <h4 class="titulo">Wenseslao</h4>
-            <p class="text-white">Maestro</p>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-6">
-          <div class="team-member text-faded">
-            <img
-              class="mx-auto rounded-circle"
-              src="img\instructores\ins2.jpg"
-              alt=""
-            />
-            <h4 class="titulo">Wensesloa</h4>
-            <p class="text-white">Maestra</p>
-          </div>
-        </div>
+      <div class="texto" style="flex: 1; padding-left: 20px;">
+        <p class="descripcion">
+          Donde el ritmo y la pasión se fusionan para crear experiencias inolvidables en la pista de baile.
+          En nuestro vibrante rincón del mundo, la danza no es solo un movimiento, es una forma de vida.
+          <br><br>
+          Desde los pasos más básicos hasta los movimientos más elaborados, en la Comunidad Salsera te invitamos a sumergirte en el fascinante universo del baile.
+        </p>
       </div>
-
     </div>
   </section>
 
   <!-- Opiniones -->
   <section id="testimonial" class="seccion">
-    <h2 class="titulo">Opiniones</h2>
+    <h2 class="titulo">Opiniones:</h2>
     <div class="row">
       <div class="col-md-8">
         <p class="descripcion">Nuestros alumnos son nuestra mejor inspiración.</br>
@@ -141,19 +100,6 @@
             </div>
           </p>
       </div>
-    </div>
-  </section>
-
-  <!-- Nosotros -->
-  <section id="nosotros" class="seccion d-flex align-items-center">
-    <div class="texto">
-      <h2 class="titulo">Nosotros</h2>
-      <p class="descripcion">
-        Nos enorgullece ofrecer una experiencia de baile personalizada. Ya sea que busques clases privadas, eventos o cotizaciones, estamos aquí para ayudarte.
-        <div class="imagen nosotros titulo text-center col-sm-6 col-md-6 col-lg-6 seccion d-flex align-items-center">
-          <img src="img/nosotros.jpg" alt="Grupo de bailarines" class="img-fluid">
-        </div>
-      </p>
     </div>
   </section>
 
@@ -176,67 +122,6 @@
     </div>
   </section>
 
-  <!-- Horarios -->
-  <section id="horarios" class="seccion">
-    <h2 class="titulo">Horarios</h2>
-    <table class="table table-striped descripcion">
-      <thead>
-        <tr>
-          <th>Día</th>
-          <th>Horario</th>
-          <th>Clase</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Lunes a Viernes</td>
-          <td>10:00 am - 11:30 am</td>
-          <td>Principiantes</td>
-        </tr>
-        <tr>
-          <td>Lunes a Viernes</td>
-          <td>5:00 pm - 6:30 pm</td>
-          <td>Intermedios</td>
-        </tr>
-        <tr>
-          <td>Sábados</td>
-          <td>9:00 am - 10:30 am</td>
-          <td>Talleres especiales</td>
-        </tr>
-        <tr>
-          <td>Domingos</td>
-          <td>4:00 pm - 6:00 pm</td>
-          <td>Noches sociales</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-<!-- maps -->
-  <section class="seccion  p-5" id="ubicacion">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading titulo">
-            <i class="fa fa-map-marker"></i>Ubicación
-          </h2>
-          <hr class="primary">
-        </div>
-      </div>
-    </div>
-    <section>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 padding-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8667.90446608693!2d-90.50004180319112!3d14.592668465648636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3296c622f25%3A0xab49916fc97dc0af!2scomunidad%20salsera!5e0!3m2!1ses!2smx!4v1740077072710!5m2!1ses!2smx"
-            height= "450px"
-            width= "100%">
-            </iframe>
-          </div>
-        </div>
-          <a href="https://www.google.com/maps/place/comunidad+salsera/@14.5967427,-90.5045639,15.96z/data=!4m6!3m5!1s0x8589a3296c622f25:0xab49916fc97dc0af!8m2!3d14.5970354!4d-90.5045206!16s%2Fg%2F11y47z6_jx?hl=es&entry=ttu&g_ep=EgoyMDI1MDIxOC4wIKXMDSoASAFQAw%3D%3D" class="btn btn-common btn-effect">Ir al mapa<br></a>
-      </div>
-    </section>
-  </section>
   <!-- redes sociales -->
   <section id="contacto" class="seccion">
     <h2 class="titulo">Contáctanos</h2>
@@ -245,7 +130,7 @@
         <li class="facebook"><a href="https://facebook.com" target="_blank"><img src="img/icons/facebook.png" alt="Facebook"></a></li>
         <li class="instagram"><a href="https://instagram.com" target="_blank"><img src="img/icons/instagram.png" alt="Instagram"></a></li>
         <li class="tiktok"><a href="https://tiktok.com" target="_blank"><img src="img/icons/tiktok.png" alt="TikTok"></a></li>
-        <li class="youtube"><a href="https://youtube.com" target="_blank"><img src="img/icons/youtube.png" alt="YouTube"></a></li>
+        <li class="youtube"><a href="https://youtube.com" target="_blank"><img src="img/icons/youtube.png" a                           ="YouTube"></a></li>
     </ul>
     </div>
     <a href="mailto:salsa@salsa.salsa" class="btn">Enviar correo</a>
