@@ -1164,6 +1164,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   height: 50px;
 }
 
+.testimonial-text h2 {
+  font-size: 40px;
+}
+
+.testimonial-text h4 {
+  font-size: 20px;
+}
+
 /*INSTRUCTORES*/
 .team-member {
   margin-bottom: 50px;
@@ -1192,13 +1200,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 /*INSTALACIONES*/
 .instalaciones2 {
   margin-bottom: 50px;
+  margin: auto;
   text-align: center;
 }
 
 .instalaciones2 img {
-  width: 350px;
-  height: 350px;
-  margin: 20px;
+  border-radius: 18px;
 }
 
 /* ==========================================================================
