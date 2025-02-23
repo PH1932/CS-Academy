@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto");
-@font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/Playfair_Display') format('truetype');
-}
-
-.shrikhand-regular {
-  font-family: "Shrikhand", serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'Glacial Indifference';
   src: url('/fonts/glacial-indifference/GlacialIndifference-Regular.otf') format('opentype');
   font-weight: bold;
+  font-style: normal;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -292,6 +296,9 @@
   position: relative;
 }
 
+.head-title {
+  font-family: 'Playfair Display', sans-serif, !important;
+}
 /* ==========================================================================
    Buttons
    ========================================================================== */
@@ -790,7 +797,7 @@ button:focus {
 
 .navbar img {
   width: 138px;
-  height: 81px;
+  height: 71px;
 }
 /* ==========================================================================
    Hero Area
@@ -927,6 +934,51 @@ button:focus {
 }
 
 /* ==========================================================================
+  TABLA
+  ========================================================================== */
+/* Estilos generales de la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo del encabezado */
+.table thead {
+  background-color: #662e93; /* Color vibrante */
+  color: white;
+  font-size: 1.1em;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Filas alternas con fondo diferente */
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Resaltar fila al pasar el mouse */
+.table tbody tr:hover {
+  background-color: #e1c2fa;
+  transition: 0.3s;
+}
+
+/* Personalización de celdas vacías */
+.table td:empty {
+  background-color: #e0e0e0; /* Color gris claro */
+}
+
+/* Alinear texto en celdas con más contenido */
+.table td {
+  vertical-align: middle;
+}
+
+/* ==========================================================================
   MAIN
  ========================================================================== */
 
@@ -1015,18 +1067,23 @@ h1, h2, h3, h4, h5 {
 }
 
 h3 {
-  color: #fff;
+  font-family: 'Glacial Indifference', sans-serif, !important;
   font-size: 30px;
-  font-weight: 400;
-  font-family: 'Playfair Display';
-  max-width: 100%;
-  max-height: 250px;
-  max-width: 80%;
-  height: auto;
-  position: relative;
-  top: -90px;
-  margin-top: 30px;
+  font-weight: 200;
   text-align: center;
+  color: #ffffff;
+  margin-bottom: 33px;
+  margin-top: -60px;
+  margin-left: -120px;
+}
+
+h5 {
+  font-family: 'Glacial Indifference', sans-serif, !important;
+  font-size: 44px;
+  font-weight: 200;
+  text-align: center;
+  color: #662e93;
+  margin-bottom: 33px;
 }
 
 ul {
@@ -1110,4 +1167,68 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   width: 350px;
   height: 350px;
   margin: 20px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  justify-content: space-between;
+  left: 0;
+  width: 100%;
+  background-color: #662e93;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-brand {
+  color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-section h4 {
+  color: #ffffff;
+  margin: 0;
+  margin-right: 500px;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.footer-section p {
+  color: #ffffff;
+  margin: 5px 0 0;
+  margin-right: 300px;
+  text-align: left;
+}
+
+.footer-brand img{
+  height: 50px;
+}
+
+.footer img {
+  margin-left: 250px;
+  width: 91px;
+  height: 81px;
+}
+
+.menu-bg .footer-foot .foot-link {
+  color: #ffffff!important;
+}
+
+.menu-bg .footer-foot .foot-link:hover {
+  color: #ffffff !important;
+}
+
+.menu-bg .footer-foot .active {
+  color: #ffffff !important;
 }
