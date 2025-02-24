@@ -963,7 +963,7 @@ button:focus {
     top: 0;
     left: 0;
     margin-top: 80px;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background.webp);
     background-size: cover; /* Asegura que la imagen cubra toda el área */
     background-position: center; /* Asegura que la imagen esté centrada */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
