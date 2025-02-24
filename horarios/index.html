@@ -2,9 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>CS Academy</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/line-icons.css">
@@ -15,36 +14,32 @@
     <link rel="stylesheet" href="../css/nivo-lightbox.css">
     <link rel="stylesheet" href="../css/main.css">    
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 <header id="home" class="hero-area-2">    
-    <div class="overlay"></div>
-    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-primary custom-navbar">
-      <div class="container">
-        <a href="../index.html" class="navbar-brand">
-          <img src="../img/logo.png" alt="Logo">
-        </a>  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="lni-menu"></i>
+  <div class="overlay"></div>
+  <nav class="navbar navbar-expand-md fixed-top scrolling-navbar custom-navbar">
+    <div class="container">
+      <a href="../index.html" class="navbar-brand">
+        <img src="../img/logo.png" alt="Logo">
+      </a>  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" 
+          aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../nosotros/index.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../horarios/index.html">Horarios y ubicación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="../contacto/index.html">Contáctanos</a>
-            </li>  
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto w-100 justify-content-end">
+          <li class="nav-item"> <a class="nav-link page-scroll" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link page-scroll" href="../nosotros/index.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link page-scroll" href="../horarios/index.html">Horarios y ubicación</a></li>
+          <li class="nav-item"><a class="nav-link page-scroll" href="../contacto/index.html">Contáctanos</a></li>  
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>   
 </header>
 <main>
 <!-- Ubicacion -->
@@ -70,7 +65,7 @@
       <div class="row">
         <div class="col-lg-12 text-center"> 
           <h2 class="section-heading titulo">
-            <i class="fa fa-map-marker"></i>Ubicación
+            <i class="fa"></i>Ubicación
           </h2>
           <h4 class="descripcion text-dark text-center">
             Nos encontramos ubicados en <b>6ta calle 16-01 Edificio Valsari, 7mo nivel, Guatemala.</b>
@@ -102,7 +97,7 @@
         <div class="col-lg-12 text-center">
           <br />
           <h2 class="section-heading titulo">
-            <i class="fa fa-users"></i> Horarios
+            <i class="fa"></i> Horarios
           </h2>
           <h4 class="descripcion text-justify text-dark">
             Nuestra academia de baile tiene horarios pensados para adaptarse a tu ritmo.
@@ -114,119 +109,118 @@
         </div>
       </div>
     </div>
-    <!-- Tabla Sabado-Domingo -->
     <table class="table descripcion">
-      <thead>
-          <tr>
-              <th><b>Hora</b></th>
-              <th><b>Sábado</b></th>
-              <th><b>Domingo</b></th>
-          </tr>
-      </thead>
-      <tbody class="descripcion">
-          <tr>
-              <td>10:00 A.M.</td>
-              <td>Salsa Principiantes<br>ON2</td>
-              <td>Salsa Principiantes<br>ON2</td>
-          </tr>
-          <tr>
-              <td>11:00 A.M.</td>
-              <td>Bachata Principiantes<br>ON1</td>
-              <td>Bachata Principiantes<br>ON1</td>
-          </tr>
-          <tr>
-              <td>12:00 P.M.</td>
-              <td>Urbano</td>
-              <td>Hip Hop</td>
-          </tr>
-          <tr>
-              <td>1:00 P.M.</td>
-              <td>Hip Hop</td>
-              <td>Hip Hop (R&B)</td>
-          </tr>
-          <tr>
-              <td>4:00 P.M.</td>
-              <td>Salsa Principiantes<br>ON2</td>
-              <td>Salsa Principiantes<br>ON2</td>
-          </tr>
-          <tr>
-              <td>5:00 P.M.</td>
-              <td>Bachata Principiantes</td>
-              <td>Bachata Principiantes</td>
-          </tr>
-          <tr>
-              <td>6:00 P.M.</td>
-              <td>Pasos Libres<br>(Intermedio)</td>
-              <td></td>
-          </tr>
-      </tbody>
-    </table>
-    </br>
-    </br>
-    </br>
-    <!-- Tabla Lunes-Viernes -->
-    <table class="table descripcion">
-      <thead>
-          <tr>
-              <th><b>Hora</b></th>
-              <th><b>Lunes</b></th>
-              <th><b>Martes</b></th>
-              <th><b>Miércoles</b></th>
-              <th><b>Jueves</b></th>
-          </tr>
-      </thead>
-      <tbody class="descripcion">
-          <tr>
-              <td>6:00 P.M.</td>
-              <td></td>
-              <td>Salsa Principiantes<br>ON2</td>
-              <td></td>
-              <td>Salsa Principiantes<br>ON2</td>
-          </tr>
-          <tr>
-              <td>6:30 P.M.</td>
-              <td>Salsa Principiantes<br>ON1</td>
-              <td></td>
-              <td>Salsa Principiantes<br>ON1</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>7:00 P.M.</td>
-              <td>Bachata Sensual<br>(Combos)</td>
-              <td></td>
-              <td>Bachata Sensual<br>(Secuencias)</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>7:30 P.M.</td>
-              <td>Bachata Principiantes</td>
-              <td></td>
-              <td>Bachata Principiantes</td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>8:00 P.M.</td>
-              <td></td>
-              <td>Salsa Intermedios<br>ON2</td>
-              <td></td>
-              <td>Salsa Intermedios<br>ON2</td>
-          </tr>
-          <tr>
-              <td>8:30 P.M.</td>
-              <td>Bachata Lady Style</td>
-              <td></td>
-              <td></td>
-              <td></td>
-          </tr>
-          <tr>
-              <td>9:00 P.M.</td>
-              <td></td>
-              <td>Clase para competidores<br>ON2</td>
-              <td></td>
-              <td>Clase para competidores<br>ON2</td>
-          </tr>
-      </tbody>
-    </table>
+  <thead>
+      <tr>
+          <th><b>Hora</b></th>
+          <th><b>Sábado</b></th>
+          <th><b>Domingo</b></th>
+      </tr>
+  </thead>
+  <tbody class="descripcion">
+      <tr>
+          <td data-label="Hora">10:00 A.M.</td>
+          <td data-label="Sábado">Salsa Principiantes<br>ON2</td>
+          <td data-label="Domingo">Salsa Principiantes<br>ON2</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">11:00 A.M.</td>
+          <td data-label="Sábado">Bachata Principiantes<br>ON1</td>
+          <td data-label="Domingo">Bachata Principiantes<br>ON1</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">12:00 P.M.</td>
+          <td data-label="Sábado">Urbano</td>
+          <td data-label="Domingo">Hip Hop</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">1:00 P.M.</td>
+          <td data-label="Sábado">Hip Hop</td>
+          <td data-label="Domingo">Hip Hop (R&B)</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">4:00 P.M.</td>
+          <td data-label="Sábado">Salsa Principiantes<br>ON2</td>
+          <td data-label="Domingo">Salsa Principiantes<br>ON2</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">5:00 P.M.</td>
+          <td data-label="Sábado">Bachata Principiantes</td>
+          <td data-label="Domingo">Bachata Principiantes</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">6:00 P.M.</td>
+          <td data-label="Sábado">Pasos Libres<br>(Intermedio)</td>
+          <td data-label="Domingo"> </td>
+      </tr>
+  </tbody>
+</table>
+
+<!-- Segunda tabla Lunes-Viernes -->
+
+<table class="table descripcion">
+  <thead>
+      <tr>
+          <th><b>Hora</b></th>
+          <th><b>Lunes</b></th>
+          <th><b>Martes</b></th>
+          <th><b>Miércoles</b></th>
+          <th><b>Jueves</b></th>
+      </tr>
+  </thead>
+  <tbody class="descripcion">
+      <tr>
+          <td data-label="Hora">6:00 P.M.</td>
+          <td data-label="Lunes"> </td>
+          <td data-label="Martes">Salsa Principiantes<br>ON2</td>
+          <td data-label="Miércoles"> </td>
+          <td data-label="Jueves">Salsa Principiantes<br>ON2</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">6:30 P.M.</td>
+          <td data-label="Lunes">Salsa Principiantes<br>ON1</td>
+          <td data-label="Martes"> </td>
+          <td data-label="Miércoles">Salsa Principiantes<br>ON1</td>
+          <td data-label="Jueves"> </td>
+      </tr>
+      <tr>
+          <td data-label="Hora">7:00 P.M.</td>
+          <td data-label="Lunes">Bachata Sensual<br>(Combos)</td>
+          <td data-label="Martes"> </td>
+          <td data-label="Miércoles">Bachata Sensual<br>(Secuencias)</td>
+          <td data-label="Jueves"> </td>
+      </tr>
+      <tr>
+          <td data-label="Hora">7:30 P.M.</td>
+          <td data-label="Lunes">Bachata Principiantes</td>
+          <td data-label="Martes"> </td>
+          <td data-label="Miércoles">Bachata Principiantes</td>
+          <td data-label="Jueves"> </td>
+      </tr>
+      <tr>
+          <td data-label="Hora">8:00 P.M.</td>
+          <td data-label="Lunes"> </td>
+          <td data-label="Martes">Salsa Intermedios<br>ON2</td>
+          <td data-label="Miércoles"> </td>
+          <td data-label="Jueves">Salsa Intermedios<br>ON2</td>
+      </tr>
+      <tr>
+          <td data-label="Hora">8:30 P.M.</td>
+          <td data-label="Lunes">Bachata Lady Style</td>
+          <td data-label="Martes"> </td>
+          <td data-label="Miércoles"> </td>
+          <td data-label="Jueves"> </td>
+      </tr>
+      <tr>
+          <td data-label="Hora">9:00 P.M.</td>
+          <td data-label="Lunes"> </td>
+          <td data-label="Martes">Clase para competidores<br>ON2</td>
+          <td data-label="Miércoles"> </td>
+          <td data-label="Jueves">Clase para competidores<br>ON2</td>
+      </tr>
+  </tbody>
+</table>
+
   </section>
   <!-- redes sociales -->
   <section id="contacto" class="seccion">

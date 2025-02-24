@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
     <title>CS Academy</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/nivo-lightbox.css">
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
     </style>
@@ -22,14 +24,16 @@
 <header id="home" class="hero-area-2">  
   <section id="head-title" class="seccion">  
     <div class="overlay"></div>
-    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-primary custom-navbar">
+    <nav class="navbar navbar-expand-md fixed-top scrolling-navbar custom-navbar">
       <div class="container">
-        <a href="index.html" class="navbar-brand">
+      <a href="index.html" class="navbar-brand">
           <img src="img/logo.png" alt="Logo">
         </a>  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="lni-menu"></i>
-        </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto w-100 justify-content-end">
             <li class="nav-item"> <a class="nav-link page-scroll" href="index.html">Inicio</a></li>
@@ -39,16 +43,15 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav>    
     <div class="container text-center text-white">      
       <div class="row space-100 d-flex align-items-center min-vh-100">
-        <div class="col-lg-7 col-md-7 col-xs-7 text-start">
+        <div class="col-lg-7 col-md-7 col-xs-12 text-start">
           <div class="contents">
             <h2 class="head-title playfair-display"><i><b><br>SOMOS FAMILIA, CORAZÓN Y BAILE</br></b></i></h2>
             <h3 class="text-white playfair-display"><i>APRENDE DESDE 0 Y MEJORA<br>TU EXPERIENCIA DE BAILE<br></i>
-              <!-- BOTON   <a href="" class="btn btn-common btn-effect">Ingresa Aquí</a>   -->
-              <br><br>
             </h3>
+              <!-- BOTON   <a href="" class="btn btn-common btn-effect">Ingresa Aquí</a>   -->
           </div>
         </div>
       </div> 
@@ -79,30 +82,27 @@
   <!-- Opiniones -->
   <section id="testimonial" class="seccion">
     <h2 class="titulo">Opiniones:</h2>
-  </br></br>
-    <div class="">
-      <div class="row align-items-center">
-        <div class="testimonial-text col-md-4 text-left">
-            <h2>Juan Carlos López</h2>
-            <h4 class="text-dark descripcion">⭐️⭐️⭐️⭐️⭐️</br>
-              "Al principio no sabía nada de salsa ni de bachata, pero los instructores son muy pacientes y explican todo de manera clara.
-              Ahora me siento mucho más seguro bailando y la verdad, me divierto un montón en cada clase. He aprendido mucho más de lo que imaginaba en poco tiempo. ¡Me encanta!"</h4>
+    <div class="container">
+        <div class="row">
+            <div class="testimonial col-lg-4 col-md-6">
+                <h2>Juan Carlos López</h2>
+                <p class="descripcion">⭐️⭐️⭐️⭐️⭐️</p>
+                <p class="testimonio-texto">"Al principio no sabía nada de salsa ni de bachata, pero los instructores son muy pacientes y explican todo de manera clara. Ahora me siento mucho más seguro bailando y la verdad, me divierto un montón en cada clase. He aprendido mucho más de lo que imaginaba en poco tiempo. ¡Me encanta!"</p>
+            </div>
+            <div class="testimonial col-lg-4 col-md-6">
+                <h2>María José Hernández</h2>
+                <p class="descripcion">⭐️⭐️⭐️⭐️⭐️</p>
+                <p class="testimonio-texto">"Las clases son súper divertidas y los profesores realmente saben lo que hacen. Aunque al principio me costó un poco, con su ayuda he mejorado mucho en mi técnica y confianza. Me encanta cómo cada clase es diferente, siempre aprendo algo nuevo y me siento muy motivada."</p>
+            </div>
+            <div class="testimonial col-lg-4 col-md-12">
+                <h2>Carlos Eduardo Morales</h2>
+                <p class="descripcion">⭐️⭐️⭐️⭐️⭐️</p>
+                <p class="testimonio-texto">"Cuando empecé pensaba que no iba a poder seguir el ritmo, pero los maestros me dieron buenos consejos y me motivaron. Ahora puedo seguir el paso con más facilidad y lo disfruto mucho. Las clases siempre son muy amenas y aprendo más cada vez. Recomiendo esta academia 100%."</p>
+            </div>
         </div>
-        <div class="testimonial-text col-md-4 text-left">
-          <h2>María José Hernández</h2>
-          <h4 class="text-dark descripcion">⭐️⭐️⭐️⭐️⭐️</br>
-            "Las clases son súper divertidas y los profesores realmente saben lo que hacen.
-            Aunque al principio me costó un poco, con su ayuda he mejorado mucho en mi técnica y confianza. Me encanta cómo cada clase es diferente, siempre aprendo algo nuevo y me siento muy motivada."</h4>
-        </div>
-        <div class="testimonial-text col-md-4 text-left">
-          <h2>Carlos Eduardo Morales</h2>
-          <h4 class="text-dark descripcion">⭐️⭐️⭐️⭐️⭐️</br>
-            "Cuando empecé pensaba que no iba a poder seguir el ritmo, pero los maestros me dieron buenos consejos y me motivaron.
-            Ahora puedo seguir el paso con más facilidad y lo disfruto mucho. Las clases siempre son muy amenas y aprendo más cada vez. Recomiendo esta academia 100%."</h4>
-        </div>
-      </div>
     </div> 
-  </section>
+</section>
+
 
   <!-- redes sociales -->
   <section id="contacto" class="seccion">
